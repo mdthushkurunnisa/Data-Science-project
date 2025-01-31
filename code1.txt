@@ -1,0 +1,14 @@
+
+CREATE VIEW vw_Organization_Department AS
+SELECT 
+    Org_Dept_ID AS Int(pk),
+    Organization_Name AS Char(64),
+    Department_Code AS Char(64),
+    Department_Name AS Char(64),
+    Department_Description AS Char(64),
+    Cost_Center AS Char(64),
+    Building_clientName AS Char(32),
+    BuildingNameAVS AS Char(32)
+FROM APG_Data;
+
+
